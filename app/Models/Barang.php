@@ -11,5 +11,5 @@ class Barang extends Model
 
     protected $table = 'barang';
     protected $guarded = ['id'];
-    protected $timestamps = false;
+    public $timestamps = false;
 }
